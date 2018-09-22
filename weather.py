@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import requests
 import random
 
+#-------
 app = Flask(__name__)
 @app.route('/random',methods=['POST'])
 def random_input():
