@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Request Example
+        </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+        
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+        
+            }
+            button {
+                width: 10%;
+                height: 10%;
+            }
+            body {
+                font: arial;
+                background-color: #5e9bdf ;
+            }
+            form {
+    
+                position: absolute;
+                left: 50%;
+                top: 60%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>  
+            <img src="http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bb93.png" alt="Cat" class="center" height="500">
+            <form method="POST" action='/random'>
+                 <input type="text" name="city" size="100" >
+                <button type="submit" style="height: 25px; width: 100px">Submit</button>
+            </form>
+    </body>
+</html>
+
