@@ -1,1 +1,1 @@
-web: gunicorn weather:app
+web: gunicorn src.weather:app --log-file=-
