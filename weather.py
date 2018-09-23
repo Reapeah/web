@@ -6,6 +6,7 @@ import json
 app_id = 'b552ef6b'
 app_key = '0ef5a2dd0ef6b363bd6a9830139a0c2c'
 
+#-------
 app = Flask(__name__)
 @app.route('/random',methods=['POST'])
 def random_input():
